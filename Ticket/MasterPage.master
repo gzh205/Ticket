@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>网上订票系统</title>
+    <style type="text/css">
+        .btnback{
+            background:url(./btnback.png);
+            background-size:cover;
+        }
+        .editorModeOverlay {
+            cursor: pointer;
+        }
+        .auto-style1 {
+            width: 100%;
+            height: 323px;
+        }
+        .auto-style4 {
+            height: 52px;
+        }
+        .auto-style21 {
+            width: 203px;
+            margin-left: 40px;
+        }
+        .auto-style22 {
+            height: 52px;
+            width: 113px;
+        }
+        .auto-style23 {
+            width: 150px;
+        }
+        .auto-style24 {
+            height: 52px;
+            width: 534px;
+        }
+        .auto-style25 {
+            width: 534px;
+        }
+        .auto-style26 {
+            height: 52px;
+            width: 203px;
+        }
+        .auto-style27 {
+            width: 203px;
+        }
+        .auto-style28 {
+            height: 52px;
+            width: 34px;
+        }
+        .auto-style29 {
+            width: 34px;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background:url(./indexBack.jpeg) fixed center center no-repeat;
+            background-size:100%
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"/>  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="gh-buttons.css">
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background:url(./indexBack.jpeg) fixed center center no-repeat;background-size:100%">
+    <div id="particles-js"></div>
+    <ul class="cb-slideshow">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="container-fluid">
+        <div class="row cb-slideshow-text-container ">
+            <div class="tm-content col-xl-5 col-sm-3 col-xs-3 ml-auto section">
+
+                <form id="form1" runat="server" style="width:300px">
+                    <div>
+                        <table class="auto-style1">
+                            <tr>
+                                <td colspan="3" style="text-align: center">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style27">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style27">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style27">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder9" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder10" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder11" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style21">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder12" runat="server"></asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder13" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder14" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style21">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder15" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder16" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder17" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style21">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder18" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder19" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style23">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder20" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style21">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder21" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style29">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder22" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
